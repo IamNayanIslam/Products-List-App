@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.app-wrap {
+  width: 800px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.productListApp {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form div input {
+  flex-basis: 70%;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #fd7384;
+  border-radius: 4px;
+}
+
+form div label {
+  flex-basis: 30%;
+}
+
+form div select {
+  justify-self: start;
+  width: 120px;
+  outline: none;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #fd7384;
+}
+
+form button {
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  background: #fd7384;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:active {
+  background: #f75a6c;
+  color: #555;
+}
+
+.emptyList {
+  width: 100%;
+  padding: 15px;
+  font-size: 22px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  background: rgba(85, 85, 85, 0.6);
+}
+
+.app-wrap table {
+  width: 100%;
+  background: rgba(184, 182, 182, 0.6);
+  border-radius: 10px;
+  padding: 5px 0;
+}
+
+.app-wrap table tr {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 1fr 1fr 1fr 1fr;
+  padding: 5px 0px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.app-wrap table tbody tr:nth-child(odd) {
+  background: #f16979;
+  color: #fff;
+}
+
+.app-wrap table tbody tr:nth-child(odd):hover {
+  background: #f34a5e;
+}
+
+.app-wrap table tbody tr:nth-child(even) {
+  background: rgba(184, 182, 182, 0.6);
+  color: #fff;
+}
+
+.app-wrap table tbody tr:nth-child(even):hover {
+  background: #858484;
+}
+
+.app-wrap table tr td {
+  text-align: center;
+}
+
+.app-wrap table tr td.del {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease all;
+}
+
+.app-wrap table tr td.del:hover {
+  scale: calc(1.4);
+}
