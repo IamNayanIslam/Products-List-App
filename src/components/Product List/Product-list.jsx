@@ -113,9 +113,9 @@ export default function ProductList() {
                 value={productColor}
                 onChange={(e) => setProductColor(e.target.value)}
               >
-                <option value="black">Black</option>
-                <option value="white">White</option>
-                <option value="gray">Gray</option>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Gray">Gray</option>
               </select>
             </div>
 
