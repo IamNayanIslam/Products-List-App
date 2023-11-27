@@ -79,7 +79,8 @@ form button:active {
   width: 100%;
   background: rgba(184, 182, 182, 0.6);
   border-radius: 10px;
-  padding: 5px 0;
+  padding: 0px 0;
+  margin: 0;
 }
 
 .app-wrap table tr {
@@ -91,22 +92,33 @@ form button:active {
   transition: 0.5s ease all;
 }
 
-.app-wrap table tbody tr:nth-child(odd) {
+.app-wrap table thead tr {
+  background: #f34a5e;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-wrap table tbody tr:nth-child(even) {
   background: #f16979;
   color: #fff;
 }
 
-.app-wrap table tbody tr:nth-child(odd):hover {
+.app-wrap table tbody tr:nth-child(even):hover {
   background: #f34a5e;
 }
 
-.app-wrap table tbody tr:nth-child(even) {
+.app-wrap table tbody tr:nth-child(odd) {
   background: rgba(184, 182, 182, 0.6);
   color: #fff;
 }
 
-.app-wrap table tbody tr:nth-child(even):hover {
+.app-wrap table tbody tr:nth-child(odd):hover {
   background: #858484;
+}
+
+.app-wrap table tbody tr:last-child {
+  border-radius: 0px 0px 10px 10px;
 }
 
 .app-wrap table tr td {
