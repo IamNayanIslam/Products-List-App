@@ -137,7 +137,7 @@ form button:active {
   scale: calc(1.4);
 }
 
-@media (max-width: 840px) {
+@media (max-width: 500px) {
   .app-wrap {
     width: 96%;
   }
@@ -153,5 +153,15 @@ form button:active {
   .app-wrap table tr {
     grid-template-columns: repeat(7, 1fr);
     gap: 2px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 840px) {
+  .app-wrap {
+    width: 96%;
+  }
+
+  form {
+    width: 100%;
   }
 }
