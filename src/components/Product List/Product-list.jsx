@@ -50,6 +50,9 @@ export default function ProductList() {
   return (
     <>
       <div className="app-wrap">
+        <h1>Best Product Stock Maintenance App</h1>
+        <h3>List Your Products Here</h3>
+
         <div className="productListApp">
           <form action="" className="product-form" onSubmit={handleSubmit}>
             <div>

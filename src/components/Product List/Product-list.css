@@ -8,6 +8,15 @@
   padding: 20px;
 }
 
+.app-wrap h1,
+h3 {
+  text-align: center;
+}
+
+.app-wrap h3 {
+  padding-bottom: 20px;
+}
+
 .productListApp {
   display: flex;
   justify-content: center;
@@ -139,7 +148,9 @@ form button:active {
 
 @media (max-width: 500px) {
   .app-wrap {
-    width: 96%;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
   }
 
   form {
