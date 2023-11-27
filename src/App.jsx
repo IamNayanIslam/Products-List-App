@@ -1,5 +1,5 @@
 import ProductList from "./components/Product List/Product-list";
-import "./app.css";
+// import "./app.css";
 function App() {
   return (
     <>
