@@ -72,6 +72,7 @@ form button:active {
   text-align: center;
   color: #fff;
   background: rgba(85, 85, 85, 0.6);
+  user-select: none;
 }
 
 .app-wrap table {
