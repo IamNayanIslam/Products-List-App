@@ -124,3 +124,13 @@ form button:active {
 .app-wrap table tr td.del:hover {
   scale: calc(1.4);
 }
+
+@media (max-width: 840px) {
+  .app-wrap {
+    width: 96%;
+  }
+
+  form {
+    width: 100%;
+  }
+}
