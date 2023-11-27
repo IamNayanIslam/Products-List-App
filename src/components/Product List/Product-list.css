@@ -145,4 +145,13 @@ form button:active {
   form {
     width: 100%;
   }
+
+  table {
+    font-size: 12px;
+  }
+
+  .app-wrap table tr {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+  }
 }
